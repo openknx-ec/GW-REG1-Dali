@@ -1,1 +1,3 @@
-Welcome to the GW-REG1-Dali wiki!
+# Willkommen zum Wiki des OpenKNX Dali Gateways
+
+## Schnelleinstieg
