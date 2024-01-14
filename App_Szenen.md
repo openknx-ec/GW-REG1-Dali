@@ -13,18 +13,22 @@
 
 Mit diesen Einstellungen, können mehrere Szenen verwendet werden, welche auch nur an einzelne EVGs gesendet werden können.
 
-Beispiel:  
-EVGs: 
+
+## Beispiele
+Beispiel EVGs: 
 - A0, in Gruppe 1
 - A1, in Gruppe 1
 - A2, in Gruppe 2
 
+### Beispiel 1
 Wenn die Einstellungen wir oben im Bild sind, dann wird beim Empfangen der KNX-Szene 1, die Dal-Szene 0 ausgelöst, welche aber nur an das EVG A0 geschickt wird.  
 Die EVGs A1 und A2 ändern nichts, da sie nicht die Empfänger sind.  
 
+### Beispiel 2
 ![Beispiel2](/OpenKNX/GW-REG1-Dali/wiki/Assets/App_Szenen_Beispiel2.png)  
 Sind die Einstellungen nun im Bild von oben, wird beim Empfangen der KNX-Szene 5, die Dali-Szene 2 ausgelöst, welche von allen EVGs in der Gruppe 1 bearbeitet wird.  
 Das EVG A2 ändert nichts, da es nicht der Empfänger ist.  
 
+### Beispiel 3
 ![Beispiel3](/OpenKNX/GW-REG1-Dali/wiki/Assets/App_Szenen_Beispiel3.png)  
 Sind die Einstellungen nun im Bild von oben, wird beim Empfangen der KNX-Szene 6, die Dali-Szene 1 ausgelöst, welche von allen EVGs bearbeitet wird.  
