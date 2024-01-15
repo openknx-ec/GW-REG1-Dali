@@ -13,7 +13,7 @@
     </tr>
     <tr>
         <td>Gerätetyp</td>
-        <td>Der DeviceType des EVGs. Bei `ETS >= 6.1.1` kann der GeräteTyp auch automatisch ausgelesen werden.</td>
+        <td>Der DeviceType des EVGs. Bei <code>ETS >= 6.1.1</code> kann der GeräteTyp auch automatisch ausgelesen werden.</td>
     </tr>
     <tr>
         <td>Betriebsart</td>
@@ -88,6 +88,6 @@
     </tr>
     <tr>
         <td>HCl aktivieren</td>
-        <td>Aktiviert [HLC](https://www.licht.de/fileadmin/Publikationen_Downloads/1806_lw21_HCL_web.pdf) für das EVG. (Siehe [hier](/OpenKNX/GW-REG1-Dali/wiki/Assets/App_HCL))</td>
+        <td>Aktiviert <a href="https://www.licht.de/fileadmin/Publikationen_Downloads/1806_lw21_HCL_web.pdf">HCL</a> für das EVG. (Siehe <a href="/OpenKNX/GW-REG1-Dali/wiki/Assets/App_HCL">hier</a>)</td>
     </tr>
 </table>

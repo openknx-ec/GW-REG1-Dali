@@ -6,4 +6,4 @@
 |---|---|
 |ETS Version >= 6.1.1|Einige Funktionen benötigen eine bestimmte ETS Version. Wenn du diese Option aktivierst, stehen dir Funktionen wie "EVG auslesen" oder "EVG schreiben" zur Verfügung.|
 |Tag/Nacht Objekt|Hier kann eingestellt werden, welcher Wert Tag bzw. Nacht darstellt.|
-|Einschaltwert Tag über KO setzen|Ist diese Option aktiviert, erscheint da KO `Einschaltwert Tag` über das der Einschaltwert für den Tag dynamisch angepasst werden kann.|
+|Einschaltwert Tag über KO setzen|Ist diese Option aktiviert, erscheint das KO `Einschaltwert Tag` über das der Einschaltwert für den Tag dynamisch angepasst werden kann.|
