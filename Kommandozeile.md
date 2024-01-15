@@ -7,6 +7,7 @@ Als Terminal kann jedes Programm verwendet werden, dass COM Schnittstellen anspr
 Als Beispiel kann dafür verwendet werden VS-Code oder auch Putty.  
 ![Overview](/OpenKNX/GW-REG1-Dali/wiki/Assets/Kommandozeile_VSCode.png)  
 > Dazu muss der Ordner Firmware mit VS-Code geöffnet werden und die PlatformIO Erweiterung installiert sein.  
+
 ![Overview](/OpenKNX/GW-REG1-Dali/wiki/Assets/Kommandozeile_Putty.png)  
 > Der COM-Port kann aus dem Gerätemanager entnommen werden.
 
