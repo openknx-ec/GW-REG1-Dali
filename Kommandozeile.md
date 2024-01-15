@@ -20,6 +20,7 @@ Startet einen Scan der Dali-Linie.
 ||1|Nur EVGs suchen, die noch keine Kurzadresse haben.|
 |y|0|Langadresse nicht neu generieren.|
 ||1|Langadresse soll neu generiert werden.|
+
 Beispiele:
 scan 00 => Es werden alle EVGs gesucht, ohne die Langadresse zu ändern.
 scan 01 => Es werden alle EVGs gesucht, vorher soll eine neue Langadresse generiert werden.
@@ -44,6 +45,7 @@ Setzt den Dimmwert auf einen festgelegten Wert.
 |---|---|---|
 |x|6-stellig|Die Langadresse des EVGs|
 |y|2-stellig|Die neue Kurzadresse des EVGs|
+
 > Es wird vorher geprüft, ob die Kurzadresse bereits verwendet wird.
 
 > Ist als neue Kurzadresse 99 angegeben, wird die Kurzadresse im EVG gelöscht. Es ist somit wieder unadressiert.
