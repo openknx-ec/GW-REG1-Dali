@@ -12,7 +12,7 @@ Als Beispiel kann dafür verwendet werden VS-Code oder auch Putty.
 > Der COM-Port kann aus dem Gerätemanager entnommen werden.
 
 
-### scan xy
+## scan xy
 Startet einen Scan der Dali-Linie.  
 |Option|Wert|Beschreibung|
 |---|---|---|
@@ -21,15 +21,15 @@ Startet einen Scan der Dali-Linie.
 |y|0|Langadresse nicht neu generieren.|
 ||1|Langadresse soll neu generiert werden.|
 
-Beispiele:
-scan 00 => Es werden alle EVGs gesucht, ohne die Langadresse zu ändern.
-scan 01 => Es werden alle EVGs gesucht, vorher soll eine neue Langadresse generiert werden.
+Beispiele:  
+scan 00 => Es werden alle EVGs gesucht, ohne die Langadresse zu ändern.  
+scan 01 => Es werden alle EVGs gesucht, vorher soll eine neue Langadresse generiert werden.  
 > Da eine Langadresse bei einigen Herstellern nicht permanent ist und manche als Standardwert 0xFFFFFF setzen, empfiehlt es sich einmalig eine neue Langadresse zu generieren. (Auch wenn vorher EVGs ohne Strom waren)
 
-### auto
+## auto
 Sucht nach EVGs ohne Kurzadresse und vergibt ihnen automatisch freie Kurzadressen.  
 
-### arc xyyzzz
+## arc xyyzzz
 Setzt den Dimmwert auf einen festgelegten Wert.
 |Option|Wert|Beschreibung|
 |---|---|---|
@@ -39,7 +39,7 @@ Setzt den Dimmwert auf einen festgelegten Wert.
 |y|2-stellig|Gibt die Kurzadresse oder Gruppe an. Bei Broadcast 00|
 |z|3-stellig|Gibt den Dimmwert von 000 bis 100 an|
 
-### set xxxxxxyy
+## set xxxxxxyy
 Ändert die Kurzadresse eines EVGs.  
 |Option|Wert|Beschreibung|
 |---|---|---|
