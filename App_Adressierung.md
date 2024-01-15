@@ -19,7 +19,7 @@ Groß- und Kleinschreibung wird dabei nicht beachtet.
 > Die Langadresse ist bei einigen Herstellern nicht permanent und kann sich nach dem Stromlosschalten ändern.
 
 ## Scannen
-Mit diesem Buttonn können alle angeschlossenen EVGs aufgelistte werden.  
+Mit diesem Button können alle angeschlossenen EVGs aufgelistet werden.  
 Dabei stehen zwei Einstellungen zur Verfügung:
  - Nur ohne Adresse: Hier werden nur EVGs gesucht, die keine Kurzadresse haben. Das ist hilfreich, wenn neue EVGs eingebaut wurden.
  - Adr. neu generieren: Hierbei wird vor dem Suchvorgang in den EVGs eine neue Langadresse generiert.
@@ -28,6 +28,6 @@ Dabei stehen zwei Einstellungen zur Verfügung:
 Hier werden alle gefunden EVGs aufgelistet, in der Reihenfolge ihrer Langadresse: von klein nach groß.  
 Die Langadresse wird dabei als HEX angezeigt.  
 Besitzt das EVG eine Kurzadresse, wird diese ebenfalls angezeigt.  
-> Es kann vorkommen, dass nicht immer alle EVGs angezeigt werden. Dies ist durch Timingprobleme auftreten. Die Ursache dafür können schlechte Klemmstellen, lange Leitungen, billige Hersteller oder ähnliches sein.
+> Es kann vorkommen, dass nicht immer alle EVGs angezeigt werden. Dies tritt durch Timingprobleme auf. Die Ursache dafür können schlechte Klemmstellen, lange Leitungen, billige Hersteller oder ähnliches sein.
 
-> Bei anhaltenden Problemen, kann auch die Suche auf der [Kommandozeile](/OpenKNX/GW-REG1-Dali/wiki/Assets/Kommandozeile) ausgeführt werden, diese ist stabiler.
+> Bei anhaltenden Problemen, kann auch die Suche auf der [[Kommandozeile]] ausgeführt werden, diese ist stabiler.
