@@ -7,7 +7,7 @@ Inhalt
 * [Firmware flashem](#Firmware-flashen)
 
 ## KnxProd
-Um eine knxprod erstellen zu können, wir der [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator/releases) benötigt.  
+Um eine knxprod erstellen zu können, wird der [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator/releases) benötigt.  
 Dort das letzte Release herunterladen und installieren.  
 Danach damit die Dali.ae-manu Datei öffnen.  
 Dort im Reiter oben auf Veröffentlichen gehen und den Button "Veröffentlichen" drücken.  
