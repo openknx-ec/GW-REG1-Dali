@@ -28,12 +28,12 @@ Du kannst das Repo ganz normal klonen.
 Es wird empfohlen, dies mit PowerShell zu tun, um das Restore Skript ausführen zu können.  
 ```
 git clone https://github.com/OpenKNX/GW-REG1-Dali
-.\GW-REG1-Dali\Firmware\scripts\Restore-Project.ps1
+.\GW-REG1-Dali\scripts\Restore-Project.ps1
 ```
 Wenn du das skript nicht ausführen magst/kannst, dann clone alle benötigten Repos (siehe dependencies.txt) im lib Ordner.
 ```
 git clone https://github.com/OpenKNX/GW-REG1-Dali
-cd GW-REG1-Dali\Firmware\lib
+cd GW-REG1-Dali\lib
 git clone https://github.com/OpenKNX/knx.git
 git clone  https://github.com/OpenKNX/OFM-FileTransferModule.git
 git clone ... etc
