@@ -19,7 +19,7 @@ Diese kann nun in die ETS geladen werden.
 Öffne den Ordner, in dem all deine Repos liegen, bzw in dem das Repo erstellt werden soll.  
 Kopiere folgenden
 ```
-iex (iwr "https://raw.githubusercontent.com/OpenKNX/GW-REG1-Dali/master/Firmware/scripts/New-Clone.ps1").Content
+iex (iwr "https://raw.githubusercontent.com/OpenKNX/GW-REG1-Dali/master/scripts/New-Clone.ps1").Content
 ```
 
 It will clone this repo and run Restore-First.ps1
