@@ -11,6 +11,7 @@ Als Beispiel kann dafür verwendet werden VS-Code oder auch Putty.
 ![Overview](/OpenKNX/GW-REG1-Dali/wiki/Assets/Kommandozeile_Putty.png)  
 > Der COM-Port kann aus dem Gerätemanager entnommen werden.
 
+Siehe auch [Beispiel Putty](https://github.com/OpenKNX/OpenKNX/wiki/Device-Console).
 
 ## scan xy
 Startet einen Scan der Dali-Linie.  
