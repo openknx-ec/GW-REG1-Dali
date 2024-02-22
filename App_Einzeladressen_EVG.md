@@ -1,5 +1,8 @@
 # Applikation - EVG Einstellungen
 
+> **Achtung** Diese Ansicht erscheint nur, wenn unter [Allgemein](https://github.com/OpenKNX/GW-REG1-Dali/wiki/App_Allgemein) die ETS Version >=6.1.1 auf "Ja" gestellt wurde.  
+  
+  
 ![Overview](/OpenKNX/GW-REG1-Dali/wiki/Assets/App_Einzeladressen_EVG.png)  
 
 |Eigenschaft|Beschreibung|
