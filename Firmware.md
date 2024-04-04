@@ -40,7 +40,7 @@ git clone ... etc
 ```
 
 ## Firmware flashen
-Öffne den Ordner Firmware mit VS-Code.  
+Öffne den Prjekt-Ordner (GW-REG1-Dali) mit VS-Code.  
 (Platformio muss bereits installiert und eingerichtet sein)  
 Drücke nun `Strg+T` und wähle dann `Build-and-Upload` aus.  
 Platformio erstellt nun die Firmware und lädt sie per USB auf das Gerät. Dies kann ein paar Minuten dauern.
