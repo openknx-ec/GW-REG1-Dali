@@ -1,7 +1,7 @@
 # **[Start](https://github.com/OpenKNX/GW-REG1-Dali/wiki/Home)**
 
 ## Firmware/Hardware
-* **Bestellen** (nicht erhältlich, da in BETA)
+* **[Bestellen](https://muster.ing-dom.de/OpenKNX-REG1/OpenKNX-REG1-Dali-Komplettbausatz.html)** (extern)
 * **[Hardware Info](https://github.com/OpenKNX/OpenKNX/wiki/REG1-Base)** (extern)
 * **[Firmware/KnxProd erstellen](https://github.com/OpenKNX/GW-REG1-Dali/wiki/Firmware)**
 
