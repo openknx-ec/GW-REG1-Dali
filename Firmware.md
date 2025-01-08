@@ -1,10 +1,12 @@
 # Firmware/KnxProd erstellen
 
-Inhalt
-* [KnxProd erstellen](#KnxProd)
-* [Repo automatisch klonen](#Automatisch)
-* [Repo manuell klonen](#Manuell)
-* [Firmware flashem](#Firmware-flashen)
+Am Einfachsten geht das Erstellen mit der [OpenKNX.Toolbox](https://github.com/OpenKNX/OpenKNX/wiki/Verwendung-der-OpenKNX-Toolbox).  
+In der Release Datei stehen verschiedene Skripte zur Verfügung um die Firmware auf das Gerät zu flashen und die Produktdatenbank zu erstellen.  
+  
+Die unten stehenden Schritte sind somit nur noch für Interessierte Entwickler, die auch am Source Code arbeiten möchten.  
+
+# Manuell erstellen
+
 
 ## KnxProd
 Um eine knxprod erstellen zu können, wird der [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator/releases) benötigt.  
