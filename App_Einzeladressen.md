@@ -38,6 +38,10 @@
         <td>Einschaltwert Nacht</td>
         <td>Prozentwert, der beim Einschalten in der Nacht gesetzt werden soll.</td>
     </tr>
+    <tr>
+        <td>HCL aktivieren</td>
+        <td>Aktiviert <a href="https://www.licht.de/fileadmin/Publikationen_Downloads/1806_lw21_HCL_web.pdf">HCL</a> für das EVG. (Siehe <a href="/OpenKNX/GW-REG1-Dali/wiki/Assets/App_HCL">hier</a>)</td>
+    </tr>
 </table>
 
 ## Treppenlicht
@@ -85,9 +89,5 @@
     <tr>
         <td>Farbtemperatur Max</td>
         <td>Maximale Farbtemperatur, die das Leuchtmittel kann.</td>
-    </tr>
-    <tr>
-        <td>HCl aktivieren</td>
-        <td>Aktiviert <a href="https://www.licht.de/fileadmin/Publikationen_Downloads/1806_lw21_HCL_web.pdf">HCL</a> für das EVG. (Siehe <a href="/OpenKNX/GW-REG1-Dali/wiki/Assets/App_HCL">hier</a>)</td>
     </tr>
 </table>
