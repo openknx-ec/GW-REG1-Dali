@@ -10,7 +10,7 @@
   <op:config name="%BASE_Info2LedLabel%" value=" IP" />
   <op:config name="%BASE_Info3LedLabel%" value=" DALI" />
   <op:config name="%BASE_Info1LedFunc%" value="0" />
-  <op:config name="%BASE_Info2LedFunc%" value="0" />
+  <op:config name="%BASE_Info2LedFunc%" value="10" />
   <op:config name="%BASE_Info3LedFunc%" value="500" />
 
   <op:config name="%NET_ServiceHTTP%" value="1" />
@@ -18,9 +18,9 @@
   <op:ETS
     OpenKnxId="0xA4"
     ApplicationNumber="1"
-    ApplicationVersion="0.12.0"
-    ReplacesVersions="0.0 0.10 0.11"
-    ApplicationRevision="1"
+    ApplicationVersion="0.13.0"
+    ReplacesVersions="0.0 0.10 0.11 0.12"
+    ApplicationRevision="0"
     ProductName="Dali-Gateway"
     BusCurrent="10"
     BuildSuffix=""
@@ -29,13 +29,12 @@
 
   <op:define prefix="BASE" ModuleType="10"
     share="../lib/OGM-Common/src/Common.share.xml">
-    <op:verify File="../lib/OGM-Common/library.json" ModuleVersion="1.8" />
+    <op:verify File="../lib/OGM-Common/library.json" ModuleVersion="1.9" />
   </op:define>
 
   <op:define prefix="NET" ModuleType="18"
-      share="../lib/OFM-Network/src/Network.share.xml"
-      noConfigTransfer="true">
-      <op:verify File="../lib/OFM-Network/library.json" ModuleVersion="0.6" />
+      share="../lib/OFM-Network/src/Network.share.xml">
+      <op:verify File="../lib/OFM-Network/library.json" ModuleVersion="0.8" />
   </op:define>
 
   <op:define prefix="UCT" ModuleType="19"
@@ -49,7 +48,7 @@
     share="../lib/OFM-Dali/src/DaliModule.share.xml"
     template="../lib/OFM-Dali/src/DaliModule.single.templ.xml"
     NumChannels="64" KoOffset="300" KoSingleOffset="20">
-    <op:verify File="../lib/OFM-Dali/library.json" ModuleVersion="0.0" /> 
+    <op:verify File="../lib/OFM-Dali/library.json" ModuleVersion="0.13" /> 
   </op:define>
 
   <!-- Uses ModuleType 43 internal -->
@@ -80,11 +79,11 @@
     share="../lib/OFM-LogicModule/src/Logikmodul.share.xml"
     template="../lib/OFM-LogicModule/src/Logikmodul.templ.xml"
     NumChannels="5" KoOffset="100">
-    <op:verify File="../lib/OFM-LogicModule/library.json" ModuleVersion="4.3" /> 
+    <op:verify File="../lib/OFM-LogicModule/library.json" ModuleVersion="4.4" /> 
   </op:define>
 
   <!-- <generate /> -->
-    <generate>
+    <generate base="TemplateApplication.xml">
       <Dynamic>
         <op:include href="../lib/OGM-Common/src/Common.share.xml" xpath="//ApplicationProgram/Dynamic/*" prefix="BASE" />
         <op:include href="../lib/OFM-Network/src/Network.share.xml" xpath="//ApplicationProgram/Dynamic/*" prefix="NET" />
