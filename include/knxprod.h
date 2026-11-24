@@ -18,7 +18,7 @@
 #define MAIN_OpenKnxId 0xA4
 #define MAIN_ApplicationNumber 1
 #define MAIN_ApplicationVersion 13
-#define MAIN_FirmwareRevision 0
+#define MAIN_FirmwareRevision 2
 #define MAIN_ApplicationEncoding iso-8859-15
 #define MAIN_ParameterSize 5747
 #define MAIN_MaxKoNumber 2211
