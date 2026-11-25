@@ -11,6 +11,7 @@ releases/*
 src/*.baggages
 compile_commands.json
 include/versions.h
+include/buildtime.h
 */*-backups/*.zip
 lib/Organization/**
 xml/**
